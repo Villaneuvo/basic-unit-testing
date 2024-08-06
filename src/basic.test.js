@@ -16,7 +16,7 @@ describe("sumAndPlusTen", () => {
 
   it("should return nan when a is integer and b is undefined", () => {
     const a = 5;
-    const b = undefined;
+    const b = 5;
     const result = sumAndPlusTen(a, b);
     expect(result).toBeNaN();
   });
