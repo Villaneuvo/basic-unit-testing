@@ -6,7 +6,7 @@ describe("sumAndPlusTen", () => {
     // AAA Patern
     // Arrange - Setup the test
     const a = 5;
-    const b = "hehe";
+    const b = 10;
     // Act - Execute the test
     const result = sumAndPlusTen(a, b);
 
