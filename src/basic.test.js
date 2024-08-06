@@ -6,7 +6,7 @@ describe("sumAndPlusTen", () => {
     // AAA Patern
     // Arrange - Setup the test
     const a = 5;
-    const b = 10;
+    const b = "hehe";
     // Act - Execute the test
     const result = sumAndPlusTen(a, b);
 
@@ -16,7 +16,7 @@ describe("sumAndPlusTen", () => {
 
   it("should return nan when a is integer and b is undefined", () => {
     const a = 5;
-    const b = 5;
+    const b = undefined;
     const result = sumAndPlusTen(a, b);
     expect(result).toBeNaN();
   });
